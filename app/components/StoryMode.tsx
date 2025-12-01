@@ -8,25 +8,25 @@ const steps = [
         icon: UserPlus,
         title: "Scene 1: The Setup",
         description:
-            "Admin installs @ScrollEngageBot into the 'Scroll Devs' group. Admin deposits $100 and sets the rule: 'Reward technical help.'",
-        color: "text-blue-400",
-        bg: "bg-blue-500/10",
+            "Admin installs @ScrollEngine Bot into the 'Scroll Devs' group. Admin deposits $100 and sets the rule: 'Reward technical help.'",
+        color: "text-[var(--neon-cyan)]",
+        bg: "bg-[var(--neon-cyan)]/10",
     },
     {
         icon: Flame,
         title: "Scene 2: The Spark",
         description:
             "It's 2:00 AM. The group is dead. The Bot wakes up: '🔥 Prediction Time: ETH is testing $3,500. Will it break resistance?'",
-        color: "text-orange-400",
-        bg: "bg-orange-500/10",
+        color: "text-[var(--neon-orange)]",
+        bg: "bg-[var(--neon-orange)]/10",
     },
     {
         icon: CheckCircle2,
         title: "Scene 3: The Value",
         description:
             "Newbie User asks a question. Expert User replies. The Bot acts: '✅ Excellent Answer! You just earned +20 Reputation Points.'",
-        color: "text-green-400",
-        bg: "bg-green-500/10",
+        color: "text-[var(--neon-purple)]",
+        bg: "bg-[var(--neon-purple)]/10",
     },
 ];
 

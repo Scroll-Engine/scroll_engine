@@ -20,18 +20,18 @@ export default function Features() {
                     {/* Layer 2 */}
                     <motion.div
                         whileHover={{ y: -5 }}
-                        className="group relative overflow-hidden rounded-3xl border border-white/10 bg-zinc-900/50 p-8 transition-colors hover:border-purple-500/50 hover:bg-zinc-900"
+                        className="group relative overflow-hidden rounded-3xl border border-white/10 bg-zinc-900/50 p-8 transition-colors hover:border-[var(--neon-purple)]/50 hover:bg-zinc-900"
                     >
-                        <div className="absolute top-0 right-0 -mt-4 -mr-4 h-24 w-24 rounded-full bg-purple-500/20 blur-2xl transition-all group-hover:bg-purple-500/40" />
+                        <div className="absolute top-0 right-0 -mt-4 -mr-4 h-24 w-24 rounded-full bg-[var(--neon-purple)]/20 blur-2xl transition-all group-hover:bg-[var(--neon-purple)]/40" />
 
-                        <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-purple-500/10 text-purple-400">
+                        <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--neon-purple)]/10 text-[var(--neon-purple)]">
                             <MessageSquare className="h-6 w-6" />
                         </div>
 
                         <h3 className="mb-2 text-xl font-bold text-white">
                             Layer 2: The "Silence Breaker"
                         </h3>
-                        <p className="mb-4 text-sm font-medium text-purple-400">
+                        <p className="mb-4 text-sm font-medium text-[var(--neon-purple)]">
                             Engagement Capital
                         </p>
                         <p className="mb-6 text-zinc-400">
@@ -49,18 +49,18 @@ export default function Features() {
                     {/* Layer 3 */}
                     <motion.div
                         whileHover={{ y: -5 }}
-                        className="group relative overflow-hidden rounded-3xl border border-white/10 bg-zinc-900/50 p-8 transition-colors hover:border-blue-500/50 hover:bg-zinc-900"
+                        className="group relative overflow-hidden rounded-3xl border border-white/10 bg-zinc-900/50 p-8 transition-colors hover:border-[var(--neon-cyan)]/50 hover:bg-zinc-900"
                     >
-                        <div className="absolute top-0 right-0 -mt-4 -mr-4 h-24 w-24 rounded-full bg-blue-500/20 blur-2xl transition-all group-hover:bg-blue-500/40" />
+                        <div className="absolute top-0 right-0 -mt-4 -mr-4 h-24 w-24 rounded-full bg-[var(--neon-cyan)]/20 blur-2xl transition-all group-hover:bg-[var(--neon-cyan)]/40" />
 
-                        <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500/10 text-blue-400">
+                        <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--neon-cyan)]/10 text-[var(--neon-cyan)]">
                             <Award className="h-6 w-6" />
                         </div>
 
                         <h3 className="mb-2 text-xl font-bold text-white">
                             Layer 3: The "Status Game"
                         </h3>
-                        <p className="mb-4 text-sm font-medium text-blue-400">
+                        <p className="mb-4 text-sm font-medium text-[var(--neon-cyan)]">
                             Social Capital
                         </p>
                         <p className="mb-6 text-zinc-400">
