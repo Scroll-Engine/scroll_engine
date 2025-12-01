@@ -16,14 +16,14 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
-          className="mb-8"
+          className="mb-8 w-full"
         >
-          <div className="relative h-40 w-40 sm:h-52 sm:w-52">
+          <div className="relative h-40 w-full sm:h-52 sm:w-full">
             <Image
-              src="/scroll-engine-logo.png"
+              src="/scroll_engine_logo.png"
               alt="Scroll Engine Logo"
               fill
-              className="object-contain drop-shadow-[0_0_15px_rgba(188,19,254,0.5)]"
+              className="object-contain"
               priority
             />
           </div>
